@@ -74,14 +74,13 @@ In a future project, it might be valuable to focus on the accessibility of the t
 Therefore we strongly recommend HSL can focus on optimizing their transportation changing system as it will improve users' experience most effectively. Then HSL needs to maintain their basic transportation service in "Fast and Smooth Travel" and "Punctuality". They also need to push transportation information to the public in a timely and accessible fashion. HSL needs to remind their staff's attitude towards customers especially for drivers and inspectors.
 
 
-
-#### Appendix:
+### Appendix:
 
 Full code: 
 
 https://colab.research.google.com/drive/1BJFdGe3eYM62DjuEF4LbadDL7SKVMvPI?usp=sharing
 
-#### Works Cited
+### Works Cited
 
 González, L., Perdiguero, J., & Sanz, À. (2021). Impact of public transport strikes on traffic and pollution in the city of Barcelona. Transportation Research Part D: Transport and Environment, 98. https://doi.org/10.1016/j.trd.2021.102952
 
