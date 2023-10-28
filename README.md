@@ -9,11 +9,11 @@ Anita Braida, Helene Ilvonen and Chao Wang
 
 HSL: Satisfaction Analysis is a project that tries to discover the dominant feature, i.e., the key factor among Helsinki Regional Transport Authority (HSL) transportation services. In the project, we analyzed public data from the HSL satisfaction survey since 2011 and used the data to train multiple machine learning models. The result shows that, among all the features that are influencing the HSL service, the top five features are the crowdedness of the vehicle, the effectiveness of changing vehicles, fast and smooth traveling, information availability and punctuality. 
 
-**Introduction**
+### Introduction
 
 This project aims to provide data-driven recommendations for HSL to enhance their service quality and efficiency by focusing on the top features. Our findings will help HSL increase the number of boardings, which aligns with their 2022-2025 [development strategy](https://www.hsl.fi/en/hsl/news/news/2021/12/hsls-strategy-20222025-public-transport-back-to-an-upward-trend-through-data-and-business-driven-services-and-partnerships). And by increasing the use of public transportation, we hope to accelerate our process of transforming towards a carbon-neutral society. Studies have shown that an efficient and widely used public transportation network is associated with lower pollutants emission, improving urban air quality and reducing the carbon footprint (Gonzalez et al., 2021; Jimenez & Roman, 2021).
 
-**Data & Methodology**
+### Data & Methodology
 
 In the project, we used data from multiple sources. The primary data source is the results of HSL customer satisfaction surveys, which are publicly available through [HSL official API](https://hsl.louhin.com/asty/help). The dataset consists of custom ratings from various aspects on a scale of 1-5 of HSL service (e.g, punctuality, cleanliness..) from 2011 to present. Additionally, we realized weather can be an important feature impacting the public transportation service rating, and the weather labels in the HSL survey table are not detailed enough (1 for "Rainy" and 2 for "Not rainy"). Therefore, we decided to integrate a historical weather data published by [Finnish Meteorological Institute](https://en.ilmatieteenlaitos.fi/download-observations), which offers more detailed weather data for our model to better estimate the relationships.
 
@@ -61,7 +61,7 @@ They are "Boardings", "Bus/car numbers", "Weather", "Effective transportation ch
 
 
 
-**Discussion and Limitations**
+### Discussion and Limitations
 
 From both models we can find that "Effective transportation change" sits as one of the top features. This means that the ability to smoothly switch between vehicles is of primary importance for the users; 
 
@@ -69,19 +69,19 @@ Although the models provided informative features which align with the goal of t
 
 In a future project, it might be valuable to focus on the accessibility of the transportation network for different categories of users. Using data such as age, gender and profession in combination with the satisfaction scores might provide additional insight into the weaknesses and strengths of the service. 
 
-**Conclusion**
+### Conclusion
 
 Therefore we strongly recommend HSL can focus on optimizing their transportation changing system as it will improve users' experience most effectively. Then HSL needs to maintain their basic transportation service in "Fast and Smooth Travel" and "Punctuality". They also need to push transportation information to the public in a timely and accessible fashion. HSL needs to remind their staff's attitude towards customers especially for drivers and inspectors.
 
 
 
-#### *Appendix:*
+#### Appendix:
 
 Full code: 
 
 https://colab.research.google.com/drive/1BJFdGe3eYM62DjuEF4LbadDL7SKVMvPI?usp=sharing
 
-# *Works Cited*
+#### Works Cited
 
 González, L., Perdiguero, J., & Sanz, À. (2021). Impact of public transport strikes on traffic and pollution in the city of Barcelona. Transportation Research Part D: Transport and Environment, 98. https://doi.org/10.1016/j.trd.2021.102952
 
